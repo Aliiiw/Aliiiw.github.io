@@ -1,6 +1,6 @@
 +++
 title = "Android Developer Roadmap 2025 – Core Skills You Must Know"
-date = 2026-02-10
+date = 2026-02-10T19:00:00+03:30
 draft = false
 tags = ["android", "kotlin", "jetpack-compose", "android-career"]
 categories = ["android"]

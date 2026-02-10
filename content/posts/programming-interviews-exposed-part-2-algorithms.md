@@ -1,6 +1,6 @@
 +++
 title = "Programming Interviews Exposed – Part 2: Algorithms Interviewers Expect You to Recognize"
-date = 2026-02-10
+date = 2026-02-10T22:00:00+03:30
 draft = false
 tags = ["algorithms", "datastructures", "interviews", "android", "kotlin"]
 categories = ["interviews", "fundamentals"]
