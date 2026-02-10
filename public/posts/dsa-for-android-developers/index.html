@@ -5,15 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>First Post | Ali Rahimi</title>
-<meta name="keywords" content="">
-<meta name="description" content="Hello! This is my first post on GitHub Pages with Hugo &#43; PaperMod.
-fun main() {
-    println(&#34;Hello, Hugo!&#34;)
-}
-">
+<title>Algorithms &amp; Data Structures for Android Developers (Practical DSA You Actually Use) | Ali Rahimi</title>
+<meta name="keywords" content="android, kotlin, dsa, algorithms, data-structures, performance">
+<meta name="description" content="Algorithms &amp; Data Structures for Android Developers
+Practical DSA You Actually Use (Android &#43; Kotlin)
+Algorithms and data structures can sound intimidating — but if you build Android apps, you’re already using them daily.
+Not every day in an “academic” way. Not like LeetCode marathons.
+But when you deal with UI lag, large lists, caching, or data filtering, DSA shows up more than you think.
+
+Do Android Devs Really Need DSA?
+Yes — but practical DSA.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/first-post/">
+<link rel="canonical" href="http://localhost:1313/posts/dsa-for-android-developers/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -22,7 +25,7 @@ fun main() {
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/first-post/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/dsa-for-android-developers/">
 <noscript>
     <style>
         #theme-toggle,
@@ -129,22 +132,165 @@ fun main() {
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      First Post
+      Algorithms &amp; Data Structures for Android Developers (Practical DSA You Actually Use)
     </h1>
-    <div class="post-meta"><span title='2026-02-10 16:09:50 +0100 CET'>February 10, 2026</span>&nbsp;·&nbsp;<span>1 min</span>
+    <div class="post-meta"><span title='2026-02-10 00:00:00 +0000 UTC'>February 10, 2026</span>&nbsp;·&nbsp;<span>3 min</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>Hello! This is my first post on GitHub Pages with Hugo + PaperMod.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">main</span>() {
-</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Hello, Hugo!&#34;</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+  <div class="post-content"><h1 id="algorithms--data-structures-for-android-developers">Algorithms &amp; Data Structures for Android Developers<a hidden class="anchor" aria-hidden="true" href="#algorithms--data-structures-for-android-developers">#</a></h1>
+<p>Practical DSA You Actually Use (Android + Kotlin)</p>
+<p>Algorithms and data structures can sound intimidating — but if you build Android apps, you’re already using them daily.</p>
+<p>Not every day in an “academic” way. Not like LeetCode marathons.<br>
+But when you deal with UI lag, large lists, caching, or data filtering, DSA shows up more than you think.</p>
+<hr>
+<h2 id="do-android-devs-really-need-dsa">Do Android Devs Really Need DSA?<a hidden class="anchor" aria-hidden="true" href="#do-android-devs-really-need-dsa">#</a></h2>
+<p><strong>Yes — but practical DSA.</strong></p>
+<p>You don’t need to memorize every algorithm.<br>
+You <em>do</em> need to recognize common structures and use them intentionally for:</p>
+<ul>
+<li>Performance (avoid UI jank)</li>
+<li>Cleaner, more maintainable code</li>
+<li>Interview fundamentals (especially mid+ roles)</li>
+</ul>
+<hr>
+<h2 id="1-lists--arrays-you-use-these-all-the-time">1) Lists &amp; Arrays (You use these all the time)<a hidden class="anchor" aria-hidden="true" href="#1-lists--arrays-you-use-these-all-the-time">#</a></h2>
+<p>This is the most common DSA category in Android.</p>
+<p>Typical Android examples:</p>
+<ul>
+<li><code>RecyclerView</code> / <code>LazyColumn</code></li>
+<li>API responses (<code>List&lt;Item&gt;</code>)</li>
+<li>UI state (lists of models, items, tabs, chips)</li>
+<li>Paging results</li>
+</ul>
+<h3 id="practical-tips">Practical tips<a hidden class="anchor" aria-hidden="true" href="#practical-tips">#</a></h3>
+<ul>
+<li>Avoid heavy work on the main thread for large lists (sorting/filtering).</li>
+<li>Prefer <code>List</code> for read-only state, and <code>MutableList</code> only when needed.</li>
+<li>For Compose, keep list state stable to reduce recompositions.</li>
+</ul>
+<hr>
+<h2 id="2-maps--sets-when-lookup-speed-matters">2) Maps &amp; Sets (When lookup speed matters)<a hidden class="anchor" aria-hidden="true" href="#2-maps--sets-when-lookup-speed-matters">#</a></h2>
+<p>When you want fast lookup or uniqueness, Maps/Sets are your best friends.</p>
+<p>Common use cases:</p>
+<ul>
+<li>Caching results</li>
+<li>Avoiding duplicates</li>
+<li>Mapping IDs to models (e.g., <code>userId -&gt; User</code>)</li>
+<li>Checking membership quickly</li>
+</ul>
+<h3 id="in-kotlin">In Kotlin<a hidden class="anchor" aria-hidden="true" href="#in-kotlin">#</a></h3>
+<ul>
+<li><code>HashMap&lt;K, V&gt;</code></li>
+<li><code>HashSet&lt;T&gt;</code></li>
+</ul>
+<h3 id="practical-tip">Practical tip<a hidden class="anchor" aria-hidden="true" href="#practical-tip">#</a></h3>
+<p>If you&rsquo;re repeatedly doing <code>list.find { it.id == ... }</code> inside loops, consider building a map once:</p>
+<ul>
+<li><code>val byId = list.associateBy { it.id }</code></li>
+</ul>
+<hr>
+<h2 id="3-stack--queue-order-matters-in-real-apps">3) Stack &amp; Queue (Order matters in real apps)<a hidden class="anchor" aria-hidden="true" href="#3-stack--queue-order-matters-in-real-apps">#</a></h2>
+<p>These appear naturally in app flows and async work.</p>
+<p>Examples:</p>
+<ul>
+<li>Back navigation (stack)</li>
+<li>Undo/redo actions (stack)</li>
+<li>Background tasks (queue)</li>
+<li>Event processing pipelines</li>
+</ul>
+<h3 id="mental-model">Mental model<a hidden class="anchor" aria-hidden="true" href="#mental-model">#</a></h3>
+<ul>
+<li><strong>Stack</strong> = LIFO (last in, first out)</li>
+<li><strong>Queue</strong> = FIFO (first in, first out)</li>
+</ul>
+<hr>
+<h2 id="4-trees-android-is-full-of-hierarchies">4) Trees (Android is full of hierarchies)<a hidden class="anchor" aria-hidden="true" href="#4-trees-android-is-full-of-hierarchies">#</a></h2>
+<p>Trees are everywhere — even if you never say “tree”.</p>
+<p>Examples:</p>
+<ul>
+<li>View hierarchy / Compose UI tree</li>
+<li>JSON nested structures</li>
+<li>Feature configuration trees</li>
+</ul>
+<p>Practical advantage: once you see a “nested” structure, you know recursion / traversal patterns apply.</p>
+<hr>
+<h2 id="5-graphs-they-sound-scary-but-theyre-not">5) Graphs (They sound scary, but they’re not)<a hidden class="anchor" aria-hidden="true" href="#5-graphs-they-sound-scary-but-theyre-not">#</a></h2>
+<p>A lot of Android problems are graphs in disguise.</p>
+<p>Examples:</p>
+<ul>
+<li>Navigation flows</li>
+<li>Feature dependencies</li>
+<li>Access rules / permission relationships</li>
+</ul>
+<p>You don’t always need graph algorithms — but recognizing “nodes + edges” helps you model things cleanly.</p>
+<hr>
+<h2 id="6-sorting-large-lists-are-expensive">6) Sorting (Large lists are expensive)<a hidden class="anchor" aria-hidden="true" href="#6-sorting-large-lists-are-expensive">#</a></h2>
+<p>Sorting costs time — and sorting big lists on the main thread is a classic reason for UI lag.</p>
+<h3 id="practical-reality">Practical reality<a hidden class="anchor" aria-hidden="true" href="#practical-reality">#</a></h3>
+<p>You usually don’t need to implement sorting algorithms yourself.</p>
+<ul>
+<li>Kotlin/Java built-ins are enough:
+<ul>
+<li><code>sortedBy</code>, <code>sortedDescending</code>, <code>sortBy</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="practical-tip-1">Practical tip<a hidden class="anchor" aria-hidden="true" href="#practical-tip-1">#</a></h3>
+<p>If you sort frequently, ask:</p>
+<ul>
+<li>Can I sort once upstream?</li>
+<li>Can I cache the sorted result?</li>
+<li>Can I do it off the main thread?</li>
+</ul>
+<hr>
+<h2 id="7-searching-sometimes-you-just-need-to-find-something">7) Searching (Sometimes you just need to find something)<a hidden class="anchor" aria-hidden="true" href="#7-searching-sometimes-you-just-need-to-find-something">#</a></h2>
+<p>This shows up constantly:</p>
+<ul>
+<li>Filters</li>
+<li>Settings search</li>
+<li>Finding an item by ID, name, or key</li>
+</ul>
+<h3 id="choose-based-on-data-size">Choose based on data size<a hidden class="anchor" aria-hidden="true" href="#choose-based-on-data-size">#</a></h3>
+<ul>
+<li><strong>Linear search</strong> for small collections</li>
+<li><strong>Binary search</strong> when data is sorted</li>
+</ul>
+<hr>
+<h2 id="8-kotlin-changes-the-game-dsa-feels-different">8) Kotlin changes the game (DSA feels different)<a hidden class="anchor" aria-hidden="true" href="#8-kotlin-changes-the-game-dsa-feels-different">#</a></h2>
+<p>Kotlin makes working with DSA more expressive — but performance still matters.</p>
+<p>Key tools:</p>
+<ul>
+<li>Immutable collections (safer state)</li>
+<li><code>map</code>, <code>filter</code>, <code>reduce</code></li>
+<li><code>Sequence</code> for lazy work (avoid creating intermediate lists)</li>
+</ul>
+<p>Clean code is great — but always keep an eye on allocations and repeated work in UI paths.</p>
+<hr>
+<h1 id="final-takeaway">Final takeaway<a hidden class="anchor" aria-hidden="true" href="#final-takeaway">#</a></h1>
+<p>You don’t need to become an algorithms researcher to be a strong Android engineer.</p>
+<p>If you master these practical structures and when to use them, you’ll build:</p>
+<ul>
+<li>Smoother apps</li>
+<li>Cleaner architectures</li>
+<li>Better fundamentals for interviews</li>
+</ul>
+<p>We’re all learning and growing as developers.<br>
+If you want, tell me what topic you want me to break down next 👇</p>
+<hr>
+<p>← <a href="/">Back to Home</a></p>
+
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/android/">Android</a></li>
+      <li><a href="http://localhost:1313/tags/kotlin/">Kotlin</a></li>
+      <li><a href="http://localhost:1313/tags/dsa/">Dsa</a></li>
+      <li><a href="http://localhost:1313/tags/algorithms/">Algorithms</a></li>
+      <li><a href="http://localhost:1313/tags/data-structures/">Data-Structures</a></li>
+      <li><a href="http://localhost:1313/tags/performance/">Performance</a></li>
     </ul>
   </footer>
 </article>

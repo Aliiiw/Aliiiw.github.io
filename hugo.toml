@@ -1,23 +1,54 @@
 baseURL = "https://aliiiw.github.io/"
 languageCode = "en-us"
-title = "Ali's Tech Notes"
+title = "Ali Rahimi"
 theme = "PaperMod"
+[pagination]
+pagerSize = 10
+
+
+# مثل همون سایت: categories + tags
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [params]
 defaultTheme = "auto"
 ShowReadingTime = true
 ShowCodeCopyButtons = true
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowBreadCrumbs = true
-ShowToc = true
-TocOpen = false
 
+# همون حالت صفحه‌ی اول: "Hi there" + یک متن کوتاه
+[params.homeInfoParams]
+Title = "Hi there this is the blog for me sharing my ideas with others in Android Field"
+Content = "Under Construction…"
+
+# آیکن‌های شبکه‌های اجتماعی (مثل یوتیوب/لینکدین)
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/alii-rahimi/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:aliirahimioriginal@gmail.com"
+
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Aliiiw"
+
+# منوی بالا: Home / categories / tags (مثل همون)
 [[menu.main]]
-name = "Posts"
-url = "/posts/"
+name = "Home"
+url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Tags"
-url = "/tags/"
+name = "categories"
+url = "/categories/"
 weight = 2
+
+[[menu.main]]
+name = "tags"
+url = "/tags/"
+weight = 3
