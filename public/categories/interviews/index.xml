@@ -6,12 +6,27 @@
     <description>Recent content in Interviews on Ali Rahimi</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0330</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 12:00:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming Interviews Exposed – Part 2: Algorithms Interviewers Expect You to Recognize</title>
+      <link>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</link>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</guid>
+      <description>&lt;h1 id=&#34;programming-interviews-exposed&#34;&gt;Programming Interviews Exposed&lt;/h1&gt;
+&lt;h2 id=&#34;part-2--algorithms-interviewers-expect-you-to-recognize&#34;&gt;Part 2 — Algorithms Interviewers Expect You to Recognize&lt;/h2&gt;
+&lt;p&gt;Continuing my notes from &lt;em&gt;Programming Interviews Exposed (3rd Edition)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Part 2 is about algorithms — not as academic topics, but as &lt;strong&gt;patterns interviewers expect you to recognize quickly&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Once you stop seeing problems as unique and start seeing patterns, interviews change completely.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1-big-o&#34;&gt;1️⃣ Big-O&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;The question behind every question&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If you don’t understand Big-O, your solution is never finished.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Programming Interviews Exposed – Part 1: Data Structures That Decide Your Result</title>
       <link>http://localhost:1313/posts/programming-interviews-exposed-part-1-data-structures/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 11:00:00 +0100</pubDate>
       <guid>http://localhost:1313/posts/programming-interviews-exposed-part-1-data-structures/</guid>
       <description>&lt;h1 id=&#34;programming-interviews-exposed&#34;&gt;Programming Interviews Exposed&lt;/h1&gt;
 &lt;h2 id=&#34;part-1--data-structures-that-decide-your-result&#34;&gt;Part 1 — Data Structures That Decide Your Result&lt;/h2&gt;
@@ -26,21 +41,6 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;1-arrays--strings&#34;&gt;1️⃣ Arrays &amp;amp; Strings&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Simple… until they’re not&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Programming Interviews Exposed – Part 2: Algorithms Interviewers Expect You to Recognize</title>
-      <link>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</guid>
-      <description>&lt;h1 id=&#34;programming-interviews-exposed&#34;&gt;Programming Interviews Exposed&lt;/h1&gt;
-&lt;h2 id=&#34;part-2--algorithms-interviewers-expect-you-to-recognize&#34;&gt;Part 2 — Algorithms Interviewers Expect You to Recognize&lt;/h2&gt;
-&lt;p&gt;Continuing my notes from &lt;em&gt;Programming Interviews Exposed (3rd Edition)&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Part 2 is about algorithms — not as academic topics, but as &lt;strong&gt;patterns interviewers expect you to recognize quickly&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Once you stop seeing problems as unique and start seeing patterns, interviews change completely.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;1-big-o&#34;&gt;1️⃣ Big-O&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;The question behind every question&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;If you don’t understand Big-O, your solution is never finished.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

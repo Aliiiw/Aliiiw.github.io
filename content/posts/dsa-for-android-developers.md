@@ -1,6 +1,6 @@
 +++
 title = "Algorithms & Data Structures for Android Developers (Practical DSA You Actually Use)"
-date = 2026-02-10T20:00:00+03:30
+date = 2026-02-10T10:00:00+01:00
 draft = false
 tags = ["android", "kotlin", "dsa", "algorithms", "data-structures", "performance"]
 categories = ["android", "fundamentals"]

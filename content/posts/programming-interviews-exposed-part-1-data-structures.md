@@ -1,6 +1,6 @@
 +++
 title = "Programming Interviews Exposed – Part 1: Data Structures That Decide Your Result"
-date = 2026-02-10T21:00:00+03:30
+date = 2026-02-10T11:00:00+01:00
 draft = false
 tags = ["datastructures", "algorithms", "interviews", "android", "kotlin"]
 categories = ["interviews", "fundamentals"]

@@ -6,76 +6,76 @@
     <description>Recent content in Tags on Ali Rahimi</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0330</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 12:00:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algorithms</title>
       <link>http://localhost:1313/tags/algorithms/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0100</pubDate>
       <guid>http://localhost:1313/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
       <link>http://localhost:1313/tags/android/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0100</pubDate>
       <guid>http://localhost:1313/tags/android/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Android-Career</title>
-      <link>http://localhost:1313/tags/android-career/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/tags/android-career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Structures</title>
-      <link>http://localhost:1313/tags/data-structures/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/tags/data-structures/</guid>
       <description></description>
     </item>
     <item>
       <title>Datastructures</title>
       <link>http://localhost:1313/tags/datastructures/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0100</pubDate>
       <guid>http://localhost:1313/tags/datastructures/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dsa</title>
-      <link>http://localhost:1313/tags/dsa/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/tags/dsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Interviews</title>
       <link>http://localhost:1313/tags/interviews/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0100</pubDate>
       <guid>http://localhost:1313/tags/interviews/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jetpack-Compose</title>
-      <link>http://localhost:1313/tags/jetpack-compose/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/tags/jetpack-compose/</guid>
       <description></description>
     </item>
     <item>
       <title>Kotlin</title>
       <link>http://localhost:1313/tags/kotlin/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0100</pubDate>
       <guid>http://localhost:1313/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Structures</title>
+      <link>http://localhost:1313/tags/data-structures/</link>
+      <pubDate>Tue, 10 Feb 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dsa</title>
+      <link>http://localhost:1313/tags/dsa/</link>
+      <pubDate>Tue, 10 Feb 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/dsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
       <link>http://localhost:1313/tags/performance/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <pubDate>Tue, 10 Feb 2026 10:00:00 +0100</pubDate>
       <guid>http://localhost:1313/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android-Career</title>
+      <link>http://localhost:1313/tags/android-career/</link>
+      <pubDate>Tue, 10 Feb 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/android-career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jetpack-Compose</title>
+      <link>http://localhost:1313/tags/jetpack-compose/</link>
+      <pubDate>Tue, 10 Feb 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/jetpack-compose/</guid>
       <description></description>
     </item>
   </channel>
