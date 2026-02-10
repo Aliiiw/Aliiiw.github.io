@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Jetpack-Compose | Ali Rahimi</title>
+<title>Ali Rahimi</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content=" - Ali Rahimi">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/jetpack-compose/">
+<link rel="canonical" href="http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms.md/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/jetpack-compose/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/jetpack-compose/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms.md/">
 <noscript>
     <style>
         #theme-toggle,
@@ -73,7 +72,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -120,29 +119,23 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
-  <h1>
-    Jetpack-Compose
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Android Developer Roadmap 2025 – Core Skills You Must Know
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Android Developer Roadmap 2025 Core Skills You Must Know
-Android is evolving fast.
-If you want to stay relevant in real production teams and pass technical interviews in 2025, these are the core skills you must master.
-This roadmap is based on real-world expectations from Android teams and hiring processes.
-1️⃣ Kotlin – The Main Android Language If you’re still using Java… it’s time to switch 👀
-Modern Android development revolves around Kotlin. You must be comfortable with:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-10 00:00:00 +0330 +0330'>February 10, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Android Developer Roadmap 2025 – Core Skills You Must Know" href="http://localhost:1313/posts/android-developer-roadmap-2025/"></a>
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta"><span>0 min</span>
+
+</div>
+  </header> 
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     
@@ -220,6 +213,53 @@ Modern Android development revolves around Kotlin. You must be comfortable with:
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

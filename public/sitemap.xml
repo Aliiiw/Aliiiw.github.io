@@ -3,51 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/algorithms/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/dsa-for-android-developers/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/android/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/android/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/android-developer-roadmap-2025/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/android-career/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/data-structures/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/datastructures/</loc>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dsa/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/fundamentals/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/interviews/</loc>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/interviews/</loc>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/jetpack-compose/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kotlin/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/performance/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/programming-interviews-exposed-part-1-data-structures/</loc>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</loc>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+03:30</lastmod>
   </url>
 </urlset>

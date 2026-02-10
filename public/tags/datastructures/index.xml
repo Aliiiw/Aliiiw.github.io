@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Ali Rahimi</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Ali Rahimi</description>
+    <title>Datastructures on Ali Rahimi</title>
+    <link>http://localhost:1313/tags/datastructures/</link>
+    <description>Recent content in Datastructures on Ali Rahimi</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Algorithms &amp; Data Structures for Android Developers (Practical DSA You Actually Use)</title>
-      <link>http://localhost:1313/posts/dsa-for-android-developers/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/posts/dsa-for-android-developers/</guid>
-      <description>&lt;h1 id=&#34;algorithms--data-structures-for-android-developers&#34;&gt;Algorithms &amp;amp; Data Structures for Android Developers&lt;/h1&gt;
-&lt;p&gt;Practical DSA You Actually Use (Android + Kotlin)&lt;/p&gt;
-&lt;p&gt;Algorithms and data structures can sound intimidating — but if you build Android apps, you’re already using them daily.&lt;/p&gt;
-&lt;p&gt;Not every day in an “academic” way. Not like LeetCode marathons.&lt;br&gt;
-But when you deal with UI lag, large lists, caching, or data filtering, DSA shows up more than you think.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;do-android-devs-really-need-dsa&#34;&gt;Do Android Devs Really Need DSA?&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Yes — but practical DSA.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Android Developer Roadmap 2025 – Core Skills You Must Know</title>
-      <link>http://localhost:1313/posts/android-developer-roadmap-2025/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/posts/android-developer-roadmap-2025/</guid>
-      <description>&lt;h1 id=&#34;android-developer-roadmap-2025&#34;&gt;Android Developer Roadmap 2025&lt;/h1&gt;
-&lt;p&gt;Core Skills You Must Know&lt;/p&gt;
-&lt;p&gt;Android is evolving fast.&lt;br&gt;
-If you want to stay relevant in real production teams and pass technical interviews in 2025, these are the core skills you must master.&lt;/p&gt;
-&lt;p&gt;This roadmap is based on real-world expectations from Android teams and hiring processes.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;1-kotlin--the-main-android-language&#34;&gt;1️⃣ Kotlin – The Main Android Language&lt;/h2&gt;
-&lt;p&gt;If you’re still using Java… it’s time to switch 👀&lt;/p&gt;
-&lt;p&gt;Modern Android development revolves around Kotlin. You must be comfortable with:&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/datastructures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming Interviews Exposed – Part 1: Data Structures That Decide Your Result</title>
       <link>http://localhost:1313/posts/programming-interviews-exposed-part-1-data-structures/</link>

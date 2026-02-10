@@ -2,9 +2,16 @@ baseURL = "https://aliiiw.github.io/"
 languageCode = "en-us"
 title = "Ali Rahimi"
 theme = "PaperMod"
+
+timeZone = "Asia/Tehran"
+
 [pagination]
 pagerSize = 10
 
+# --- Ordering: newest first (by date/publishDate/lastmod)
+[frontmatter]
+date = ["publishDate", "date", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 # مثل همون سایت: categories + tags
 [taxonomies]
@@ -17,13 +24,14 @@ ShowReadingTime = true
 ShowCodeCopyButtons = true
 ShowPostNavLinks = false
 ShowBreadCrumbs = true
+ShowLastMod = true
 
 # همون حالت صفحه‌ی اول: "Hi there" + یک متن کوتاه
 [params.homeInfoParams]
 Title = "Hi there this is the blog for me sharing my ideas with others in Android Field"
 Content = "Under Construction…"
 
-# آیکن‌های شبکه‌های اجتماعی (مثل یوتیوب/لینکدین)
+# آیکن‌های شبکه‌های اجتماعی
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/alii-rahimi/"
@@ -32,12 +40,11 @@ url = "https://www.linkedin.com/in/alii-rahimi/"
 name = "email"
 url = "mailto:aliirahimioriginal@gmail.com"
 
-
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/Aliiiw"
 
-# منوی بالا: Home / categories / tags (مثل همون)
+# منوی بالا
 [[menu.main]]
 name = "Home"
 url = "/"

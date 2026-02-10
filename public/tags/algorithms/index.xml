@@ -6,12 +6,12 @@
     <description>Recent content in Algorithms on Ali Rahimi</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0330</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algorithms &amp; Data Structures for Android Developers (Practical DSA You Actually Use)</title>
       <link>http://localhost:1313/posts/dsa-for-android-developers/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
       <guid>http://localhost:1313/posts/dsa-for-android-developers/</guid>
       <description>&lt;h1 id=&#34;algorithms--data-structures-for-android-developers&#34;&gt;Algorithms &amp;amp; Data Structures for Android Developers&lt;/h1&gt;
 &lt;p&gt;Practical DSA You Actually Use (Android + Kotlin)&lt;/p&gt;
@@ -21,6 +21,40 @@ But when you deal with UI lag, large lists, caching, or data filtering, DSA show
 &lt;hr&gt;
 &lt;h2 id=&#34;do-android-devs-really-need-dsa&#34;&gt;Do Android Devs Really Need DSA?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Yes — but practical DSA.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programming Interviews Exposed – Part 1: Data Structures That Decide Your Result</title>
+      <link>http://localhost:1313/posts/programming-interviews-exposed-part-1-data-structures/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <guid>http://localhost:1313/posts/programming-interviews-exposed-part-1-data-structures/</guid>
+      <description>&lt;h1 id=&#34;programming-interviews-exposed&#34;&gt;Programming Interviews Exposed&lt;/h1&gt;
+&lt;h2 id=&#34;part-1--data-structures-that-decide-your-result&#34;&gt;Part 1 — Data Structures That Decide Your Result&lt;/h2&gt;
+&lt;p&gt;I’m rereading &lt;em&gt;Programming Interviews Exposed (3rd Edition)&lt;/em&gt; — and it’s a strong reminder that interviews are rarely about “clever tricks”.&lt;/p&gt;
+&lt;p&gt;They’re about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fundamentals&lt;/li&gt;
+&lt;li&gt;Clear thinking&lt;/li&gt;
+&lt;li&gt;How you explain your logic under pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is Part 1 of a short series where I’m sharing what actually matters in Data Structures — without overcomplicating it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1-arrays--strings&#34;&gt;1️⃣ Arrays &amp;amp; Strings&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Simple… until they’re not&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programming Interviews Exposed – Part 2: Algorithms Interviewers Expect You to Recognize</title>
+      <link>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0330</pubDate>
+      <guid>http://localhost:1313/posts/programming-interviews-exposed-part-2-algorithms/</guid>
+      <description>&lt;h1 id=&#34;programming-interviews-exposed&#34;&gt;Programming Interviews Exposed&lt;/h1&gt;
+&lt;h2 id=&#34;part-2--algorithms-interviewers-expect-you-to-recognize&#34;&gt;Part 2 — Algorithms Interviewers Expect You to Recognize&lt;/h2&gt;
+&lt;p&gt;Continuing my notes from &lt;em&gt;Programming Interviews Exposed (3rd Edition)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Part 2 is about algorithms — not as academic topics, but as &lt;strong&gt;patterns interviewers expect you to recognize quickly&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Once you stop seeing problems as unique and start seeing patterns, interviews change completely.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1-big-o&#34;&gt;1️⃣ Big-O&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;The question behind every question&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If you don’t understand Big-O, your solution is never finished.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
